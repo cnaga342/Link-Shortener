@@ -1,0 +1,23 @@
+{
+  "name": "url_shortner_service",
+  "version": "1.0.0",
+  "description": "> API to create short urls using Node, Express and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.1.0",
+    "express": "^4.19.2",
+    "mongoose": "^5.13.22",
+    "shortid": "^2.2.14",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
